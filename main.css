@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 28px;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.images__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.wrapper{
+    background-image: url("./images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__link{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: orangered;
+}
+.hero{
+    padding-top: 90px;
+    padding-bottom: 236px;
+}
+.hero__textbox{
+    width: 679px;
+}
+.hero__title{
+    color: white;
+    font-size: 96px;
+    font-weight: 900;
+}
+.hero__text{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+.hero__btn{
+    width: 180px;
+    background-color: red;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.hoho{
+width: 1920px;
+height: 3000px;
+background-color: #777777   ;
+}
+.gol{
+padding-top: 60px;
+text-align: center  ;
+}
+.global{
+    background-color: bisque;
+width: 1280px;
+height: 1365px;
+margin: 0 auto;
+}
+
+.hop{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.blok{
+    background-color: black;
+    width: 400px;
+    margin-top: 100px;
+    height: 462px;
+}
+.blok:hover{
+    background-color: blue;
+}
+.ota{
+    margin: 0 auto;
+    gap: 50px;
+    display: flex;
+    width: 1480px;
+    height: 964px;
+    flex-wrap: wrap;
+}
+.noo{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.koool{
+    color: white;
+    margin-top: 100px;
+}
+.wrapper{
+    text-align: center;
+        background-color: black;
+    }
+    .title{
+        color: yellow;
+    }
+    .inputs{
+        width: 292px;
+        height: 46px;
+        border-radius: 20px;
+        border: none;
+    }
+    .inputss{
+        width: 292px;
+        height: 206px;
+        border-radius: 20px;
+        border: none;
+    }
+    .bot{
+        background-color: aquamarine;
+        width: 300px;
+        height: 60px;
+    }
+    .textcenter{
+        text-align: center;
+    }
+    .container{
+        min-width: 1240px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header__nav{
+        background-color:#f3d7b7;
+        height: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__list{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    .header__link{
+        color: #333333;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .header__item{
+        list-style: none;
+    }
